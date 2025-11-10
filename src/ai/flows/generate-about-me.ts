@@ -10,6 +10,7 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import { googleAI } from '@genkit-ai/google-genai';
 
 const GenerateAboutMeInputSchema = z.object({
   background: z
@@ -33,6 +34,7 @@ const prompt = ai.definePrompt({
   name: 'generateAboutMePrompt',
   input: {schema: GenerateAboutMeInputSchema},
   output: {schema: GenerateAboutMeOutputSchema},
+  model: googleAI.model('gemini-2.5-flash'),
   prompt: `You are an AI assistant helping a user create an engaging "About Me" section for their portfolio.
 
   Based on the following background information, generate a brief and engaging "About Me" section. Focus on making it sound professional and highlight the user's key attributes, make it sound like the user is from Aswan, and studying Computer Science and AI.

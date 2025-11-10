@@ -10,6 +10,7 @@
 
 import { ai } from '@/ai/genkit';
 import { z } from 'genkit';
+import { googleAI } from '@genkit-ai/google-genai';
 
 const ChatInputSchema = z.object({
   message: z.string().describe('The user message'),
@@ -29,6 +30,7 @@ const prompt = ai.definePrompt({
   name: 'chatPrompt',
   input: { schema: ChatInputSchema },
   output: { schema: ChatOutputSchema },
+  model: googleAI.model('gemini-2.5-flash'),
   prompt: `You are a helpful AI assistant for a portfolio website. The portfolio belongs to Ahmed Elshrief, a student of Computer Science and AI from Aswan. Be helpful and friendly.
 
   User message: {{{message}}}`,
