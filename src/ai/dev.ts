@@ -3,3 +3,4 @@ config();
 
 import '@/ai/flows/generate-about-me.ts';
 import '@/ai/flows/summarize-ai-projects.ts';
+import '@/ai/flows/chat.ts';

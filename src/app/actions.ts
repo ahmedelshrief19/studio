@@ -1,6 +1,7 @@
 'use server';
 
 import { summarizeAIProject } from '@/ai/flows/summarize-ai-projects';
+import { chat } from '@/ai/flows/chat';
 
 export async function getProjectSummary(projectDescription: string) {
   try {
@@ -9,5 +10,15 @@ export async function getProjectSummary(projectDescription: string) {
   } catch (error) {
     console.error(error);
     return { success: false, error: 'Failed to generate summary.' };
+  }
+}
+
+export async function getChatResponse(message: string) {
+  try {
+    const { response } = await chat({ message });
+    return { success: true, response };
+  } catch (error) {
+    console.error(error);
+    return { success: false, error: 'Failed to get chat response.' };
   }
 }
