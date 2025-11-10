@@ -17,6 +17,22 @@ export const projects = [
     description: 'A classic game of Tic-Tac-Toe. Challenge a friend and see who can get three in a row first. This simple game is built with React state management.',
     image: 'project1',
     tags: ['React', 'Game Logic', 'UI/UX'],
-    gameComponent: 'TicTacToe',
+    projectComponent: 'TicTacToe',
+  },
+  {
+    id: '2',
+    title: 'Calculator',
+    description: 'A fully functional calculator for basic arithmetic operations. Built with React, it handles state management for a smooth user experience.',
+    image: 'project-calculator',
+    tags: ['React', 'State Management', 'Utility'],
+    projectComponent: 'Calculator',
+  },
+  {
+    id: '3',
+    title: 'Guess the Number',
+    description: 'A fun game where you try to guess a secret number between 1 and 100. The game provides feedback to help you narrow down your guess.',
+    image: 'project-guess-number',
+    tags: ['React', 'Game Logic', 'Fun'],
+    projectComponent: 'GuessTheNumber',
   },
 ];

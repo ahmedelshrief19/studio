@@ -21,6 +21,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Gamepad2 } from 'lucide-react';
 import Image from 'next/image';
 import { TicTacToe } from './tic-tac-toe';
+import { Calculator } from './calculator';
+import { GuessTheNumber } from './guess-the-number';
 
 type Project = {
   id: string;
@@ -28,21 +30,27 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  gameComponent?: 'TicTacToe';
+  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber';
 };
 
-type GameCardProps = {
+type ProjectCardProps = {
   project: Project;
 };
 
-const GameComponent = ({ name }: { name: Project['gameComponent'] }) => {
+const ProjectComponent = ({ name }: { name: Project['projectComponent'] }) => {
   if (name === 'TicTacToe') {
     return <TicTacToe />;
+  }
+  if (name === 'Calculator') {
+    return <Calculator />;
+  }
+  if (name === 'GuessTheNumber') {
+    return <GuessTheNumber />;
   }
   return null;
 }
 
-export function GameCard({ project }: GameCardProps) {
+export function ProjectCard({ project }: ProjectCardProps) {
   const projectImage = PlaceHolderImages.find((img) => img.id === project.image);
 
   return (
@@ -72,20 +80,22 @@ export function GameCard({ project }: GameCardProps) {
         <CardDescription>{project.description}</CardDescription>
       </CardContent>
       <CardFooter>
-        <Dialog>
-          <DialogTrigger asChild>
-            <Button variant="outline">
-              <Gamepad2 className="mr-2 h-4 w-4" />
-              Play Game
-            </Button>
-          </DialogTrigger>
-          <DialogContent className="max-w-max">
-            <DialogHeader>
-              <DialogTitle>{project.title}</DialogTitle>
-            </DialogHeader>
-            {project.gameComponent && <GameComponent name={project.gameComponent} />}
-          </DialogContent>
-        </Dialog>
+        {project.projectComponent && (
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="outline">
+                <Gamepad2 className="mr-2 h-4 w-4" />
+                Launch Project
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="max-w-max">
+              <DialogHeader>
+                <DialogTitle>{project.title}</DialogTitle>
+              </DialogHeader>
+              <ProjectComponent name={project.projectComponent} />
+            </DialogContent>
+          </Dialog>
+        )}
       </CardFooter>
     </Card>
   );

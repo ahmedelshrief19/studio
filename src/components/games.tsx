@@ -1,19 +1,21 @@
-import { projects } from '@/lib/data';
-import { GameCard } from './project-card';
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
+import { Projects } from "@/components/projects";
+import { Header } from "@/components/header";
+import { Hero } from "@/components/hero";
+import { Skills } from "@/components/skills";
 
-export function Games() {
+export default function Home() {
   return (
-    <section id="projects" className="py-20 md:py-32">
-      <div className="container mx-auto px-4">
-        <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">
-          My Games
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <GameCard key={project.id} project={project} />
-          ))}
-        </div>
-      </div>
-    </section>
+    <div id="home" className="flex flex-col min-h-screen bg-background">
+      <Header />
+      <main className="flex-grow">
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }

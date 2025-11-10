@@ -1,6 +1,6 @@
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
-import { Games } from "@/components/games";
+import { Projects } from "@/components/projects";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Skills } from "@/components/skills";
@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Skills />
-        <Games />
+        <Projects />
         <Contact />
       </main>
       <Footer />

@@ -43,16 +43,16 @@
       "imageHint": "tic-tac-toe game"
     },
     {
-      "id": "project2",
-      "description": "Screenshot of Project 2.",
-      "imageUrl": "https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYyNjY4NTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "id": "project-calculator",
+      "description": "Image for calculator project",
+      "imageUrl": "https://images.unsplash.com/photo-1735467547583-d9fc4503f238?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdG9yJTIwYXBwfGVufDB8fHx8MTc2MjY2OTE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calculator app"
     },
     {
-      "id": "project3",
-      "description": "Screenshot of Project 3.",
-      "imageUrl": "https://images.unsplash.com/photo-1625535069703-a67ae00bd6de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RlJTIwZWRpdG9yfGVufDB8fHx8MTc2MjczNjkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "code editor"
+      "id": "project-guess-number",
+      "description": "Image for guess the number game",
+      "imageUrl": "https://images.unsplash.com/photo-1542027953342-020384de63a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxudW1iZXIlMjBnYW1lfGVufDB8fHx8MTc2Mjc0MDMxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "number game"
     }
   ]
 }
