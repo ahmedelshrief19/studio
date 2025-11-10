@@ -1,5 +1,5 @@
 import type React from "react";
-import { BrainCircuit, Code, Database, Server } from 'lucide-react';
+import { BrainCircuit, Code, Database, Server, BookOpen } from 'lucide-react';
 
 export const skills = [
   { name: 'Python', level: 90, icon: BrainCircuit },
@@ -11,6 +11,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: '4',
+    title: 'Quran Program',
+    description: 'An interactive Quran player that displays a random verse (Ayah) with its translation and provides audio recitation. Built using an external Quran API.',
+    image: 'project-quran',
+    tags: ['React', 'API', 'Audio'],
+    projectComponent: 'QuranPlayer',
+  },
   {
     id: '1',
     title: 'Tic-Tac-Toe',

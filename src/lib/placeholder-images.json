@@ -53,6 +53,12 @@
       "description": "Image for guess the number game",
       "imageUrl": "https://images.unsplash.com/photo-1542027953342-020384de63a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxudW1iZXIlMjBnYW1lfGVufDB8fHx8MTc2Mjc0MDMxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "number game"
+    },
+    {
+      "id": "project-quran",
+      "description": "Image for Quran Program",
+      "imageUrl": "https://images.unsplash.com/photo-1593773331124-4ff9f002f833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxxdXJhbiUyMGlzbGFtfGVufDB8fHx8MTc2Mjc0MDgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quran islam"
     }
   ]
 }

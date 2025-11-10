@@ -23,6 +23,7 @@ import Image from 'next/image';
 import { TicTacToe } from './tic-tac-toe';
 import { Calculator } from './calculator';
 import { GuessTheNumber } from './guess-the-number';
+import { QuranPlayer } from './quran-player';
 
 type Project = {
   id: string;
@@ -30,7 +31,7 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber';
+  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer';
 };
 
 type ProjectCardProps = {
@@ -46,6 +47,9 @@ const ProjectComponent = ({ name }: { name: Project['projectComponent'] }) => {
   }
   if (name === 'GuessTheNumber') {
     return <GuessTheNumber />;
+  }
+  if (name === 'QuranPlayer') {
+    return <QuranPlayer />;
   }
   return null;
 }
