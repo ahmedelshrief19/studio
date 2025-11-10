@@ -14,9 +14,9 @@ export const projects = [
   {
     id: '4',
     title: 'Quran Program',
-    description: 'An interactive Quran player that displays a random verse (Ayah) with its translation and provides audio recitation. Built using an external Quran API.',
+    description: 'An interactive program to read the Holy Quran and daily Adhkar (remembrances). Select a Surah to read, or browse through morning and evening Adhkar.',
     image: 'project-quran',
-    tags: ['React', 'API', 'Audio'],
+    tags: ['React', 'API', 'Islamic'],
     projectComponent: 'QuranPlayer',
   },
   {

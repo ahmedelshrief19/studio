@@ -14,6 +14,7 @@ export default {
         headline: ['Space Grotesk', 'sans-serif'],
         code: ['monospace'],
         signature: ['"Cedarville Cursive"', 'cursive'],
+        arabic: ['Lateef', 'serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
