@@ -19,6 +19,12 @@
       "imageHint": "portrait man"
     },
     {
+      "id": "ahmed-profile-3",
+      "description": "A third professional portrait of Ahmed Elshrief.",
+      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/480179938_1610800142885929_4772354231152263814_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFUh3Nusq-pHAMr71IdaMbeb1MQbYHxOwpvUxBtgfE7Ci7bo9pYI2vzkNKoxeUcoIFejDt4_uarmR5yM1ZmFWkl&_nc_ohc=rfrTeq18klsQ7kNvwGMZSe9&_nc_oc=Adkj3w7heQXxC0Iwe3Wk-mtO5ivBwHJ65b6f_A0xCzOnGlra5TnCh1B3skLFFqo1Fk0&_nc_zt=23&_nc_ht=scontent.faly8-1.fna&_nc_gid=4q4ZUkuLLASNn77cmnEMow&oh=00_AfhGXfeoL7rin_odMh-j14VA5bjTiHz3Vyfh-9zZElBR-Q&oe=6917352F",
+      "imageHint": "portrait man"
+    },
+    {
       "id": "project1",
       "description": "Image for Tic-Tac-Toe game.",
       "imageUrl": "https://images.unsplash.com/photo-1734352749174-32c5f5919a02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aWMtdGFjLXRvZSUyMGdhbWV8ZW58MHx8fHwxNzYyNzM4Mzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",

@@ -33,6 +33,12 @@ const nextConfig: NextConfig = {
         hostname: 'scontent.faly8-2.fna.fbcdn.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'scontent.faly8-1.fna.fbcdn.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
