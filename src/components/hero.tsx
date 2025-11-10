@@ -14,9 +14,7 @@ export function Hero() {
     <section id="about" className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-12 px-4 py-20 md:py-32 min-h-[calc(100vh-56px)]">
       <div className="flex-shrink-0">
         <Avatar className="h-64 w-64 md:h-80 md:w-80 border-4 border-accent shadow-lg">
-          <AvatarImage src="/ahmed1.png" alt="Profile Picture" asChild>
-            <Image src="/ahmed1.png" alt="Profile Picture" width={320} height={320} />
-          </AvatarImage>
+          <AvatarImage src="/ahmed1.png" alt="Profile Picture" />
           <AvatarFallback className="text-6xl font-headline bg-primary text-primary-foreground">AE</AvatarFallback>
         </Avatar>
       </div>
