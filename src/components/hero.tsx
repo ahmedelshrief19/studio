@@ -1,14 +1,11 @@
-import { generateAboutMe } from "@/ai/flows/generate-about-me";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ArrowRight } from "lucide-react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-export async function Hero() {
-  const { aboutMe } = await generateAboutMe({
-    background: "A computer science and AI student from Aswan.",
-  });
+export function Hero() {
+  const aboutMe = "I am an aspiring AI Engineer and Developer from Aswan, currently studying Computer Science and AI. I am passionate about building intelligent applications that solve real-world problems.";
   const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
 
   return (
