@@ -1,6 +1,6 @@
 'use client';
 
-import { Code2, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { SmoothScrollLink } from './smooth-scroll-link';
@@ -29,8 +29,7 @@ export function Header() {
     <header className={cn("sticky top-0 z-50 w-full transition-all duration-300", hasScrolled ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent")}>
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <SmoothScrollLink href="#home" className="mr-6 flex items-center space-x-2">
-          <Code2 className="h-6 w-6 text-accent" />
-          <span className="font-bold font-headline">Aswan AI</span>
+          <span className="font-signature text-3xl font-bold text-foreground transition-colors hover:text-accent">Ahmed Elshrief</span>
         </SmoothScrollLink>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
