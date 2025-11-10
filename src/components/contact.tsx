@@ -1,7 +1,7 @@
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Mail, MessageSquare } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 
@@ -25,10 +25,11 @@ const formSchema = z.object({
 });
 
 const socialLinks = [
-  { icon: Github, href: '#', name: 'GitHub' },
-  { icon: Linkedin, href: '#', name: 'LinkedIn' },
-  { icon: Twitter, href: '#', name: 'Twitter' },
-  { icon: Mail, href: 'mailto:email@example.com', name: 'Email' },
+    { icon: Facebook, href: 'https://www.facebook.com/share/1GNs7rHjxD/', name: 'Facebook' },
+    { icon: Instagram, href: 'https://www.instagram.com/elshrief19?igsh=MXVtN2FjOTBia3N6ZA==', name: 'Instagram' },
+    { icon: MessageSquare, href: 'https://wa.me/qr/JZWUNMBZIHD5A1', name: 'WhatsApp' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/ahmad-elshrief-5960972a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', name: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:ahmedelshrief432@gmail.com', name: 'Email' },
 ];
 
 export function Contact() {
