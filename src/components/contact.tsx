@@ -29,7 +29,7 @@ const socialLinks = [
     { icon: Instagram, href: 'https://www.instagram.com/elshrief19?igsh=MXVtN2FjOTBia3N6ZA==', name: 'Instagram' },
     { icon: MessageSquare, href: 'https://wa.me/qr/JZWUNMBZIHD5A1', name: 'WhatsApp' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/ahmad-elshrief-5960972a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', name: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:ahmedelshrief432@gmail.com', name: 'Email' },
+    { icon: Mail, href: 'mailto:ahmadelshrief53@gmail.com', name: 'Email' },
 ];
 
 export function Contact() {
@@ -44,11 +44,14 @@ export function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // In a real application, you would send this data to a server.
-    console.log(values);
+    const subject = encodeURIComponent(`Message from ${values.name} via Portfolio`);
+    const body = encodeURIComponent(values.message);
+    const mailtoLink = `mailto:ahmadelshrief53@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = mailtoLink;
+
     toast({
-      title: 'Message Sent!',
-      description: "Thanks for reaching out. I'll get back to you soon.",
+      title: 'Preparing Your Message!',
+      description: "Your email client should open shortly.",
     });
     form.reset();
   }
