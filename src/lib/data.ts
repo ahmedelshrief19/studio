@@ -13,29 +13,10 @@ export const skills = [
 export const projects = [
   {
     id: '1',
-    title: 'AI-Powered Financial Advisor',
-    description: 'A web application that uses machine learning to provide personalized financial advice. It analyzes user spending habits and market trends to suggest investment strategies. The project involved building a predictive model and a user-friendly interface.',
+    title: 'Tic-Tac-Toe',
+    description: 'A classic game of Tic-Tac-Toe. Challenge a friend and see who can get three in a row first. This simple game is built with React state management.',
     image: 'project1',
-    tags: ['Next.js', 'Python', 'PyTorch', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    id: '2',
-    title: 'Nubian Heritage Mobile Guide',
-    description: 'A mobile app that serves as an interactive guide to Aswan\'s Nubian heritage. It features historical information, 3D models of artifacts, and a location-based tour guide. The goal was to preserve and promote local culture through technology.',
-    image: 'project2',
-    tags: ['React Native', 'Firebase', 'Three.js'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    id: '3',
-    title: 'Code Review Automation Tool',
-    description: 'A developer tool that integrates with GitHub to automatically review pull requests for common errors and style inconsistencies. It uses a custom-trained language model to understand code context and provide meaningful suggestions, improving code quality and team productivity.',
-    image: 'project3',
-    tags: ['Node.js', 'TypeScript', 'GitHub API', 'LLM'],
-    liveUrl: '#',
-    githubUrl: '#',
+    tags: ['React', 'Game Logic', 'UI/UX'],
+    gameComponent: 'TicTacToe',
   },
 ];

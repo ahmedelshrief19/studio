@@ -1,6 +1,5 @@
 'use client';
 
-import { getProjectSummary } from '@/app/actions';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -14,16 +13,14 @@ import {
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Github, Loader2, Sparkles, ExternalLink } from 'lucide-react';
+import { Gamepad2 } from 'lucide-react';
 import Image from 'next/image';
-import { useState } from 'react';
-import { Alert, AlertDescription, AlertTitle } from './ui/alert';
+import { TicTacToe } from './tic-tac-toe';
 
 type Project = {
   id: string;
@@ -31,35 +28,22 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  liveUrl?: string;
-  githubUrl?: string;
+  gameComponent?: 'TicTacToe';
 };
 
-type ProjectCardProps = {
+type GameCardProps = {
   project: Project;
 };
 
-export function ProjectCard({ project }: ProjectCardProps) {
-  const [summary, setSummary] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState('');
+const GameComponent = ({ name }: { name: Project['gameComponent'] }) => {
+  if (name === 'TicTacToe') {
+    return <TicTacToe />;
+  }
+  return null;
+}
 
+export function GameCard({ project }: GameCardProps) {
   const projectImage = PlaceHolderImages.find((img) => img.id === project.image);
-
-  const handleSummarize = async () => {
-    // If summary is already loaded, don't re-fetch
-    if (summary) return;
-
-    setIsLoading(true);
-    setError('');
-    const result = await getProjectSummary(project.description);
-    if (result.success) {
-      setSummary(result.summary!);
-    } else {
-      setError(result.error!);
-    }
-    setIsLoading(false);
-  };
 
   return (
     <Card className="flex flex-col overflow-hidden h-full bg-secondary/50 hover:border-accent transition-colors">
@@ -87,41 +71,21 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <CardContent className="flex-grow">
         <CardDescription>{project.description}</CardDescription>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-4">
-        <div className="flex space-x-2">
-            <Dialog>
-            <DialogTrigger asChild>
-                <Button variant="outline" onClick={handleSummarize}>
-                <Sparkles className="mr-2 h-4 w-4" />
-                AI Summary
-                </Button>
-            </DialogTrigger>
-            <DialogContent>
-                <DialogHeader>
-                <DialogTitle>AI Project Summary</DialogTitle>
-                </DialogHeader>
-                {isLoading && <div className="flex justify-center items-center p-8"><Loader2 className="h-8 w-8 animate-spin text-accent" /></div>}
-                {error && <Alert variant="destructive"><AlertTitle>Error</AlertTitle><AlertDescription>{error}</AlertDescription></Alert>}
-                {summary && <DialogDescription className="text-base">{summary}</DialogDescription>}
-            </DialogContent>
-            </Dialog>
-        </div>
-        <div className="flex gap-2">
-          {project.githubUrl && (
-            <Button variant="ghost" size="icon" asChild>
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
-                <Github />
-              </a>
+      <CardFooter>
+        <Dialog>
+          <DialogTrigger asChild>
+            <Button variant="outline">
+              <Gamepad2 className="mr-2 h-4 w-4" />
+              Play Game
             </Button>
-          )}
-          {project.liveUrl && (
-            <Button variant="ghost" size="icon" asChild>
-              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Live project link">
-                <ExternalLink />
-              </a>
-            </Button>
-          )}
-        </div>
+          </DialogTrigger>
+          <DialogContent className="max-w-max">
+            <DialogHeader>
+              <DialogTitle>{project.title}</DialogTitle>
+            </DialogHeader>
+            {project.gameComponent && <GameComponent name={project.gameComponent} />}
+          </DialogContent>
+        </Dialog>
       </CardFooter>
     </Card>
   );
