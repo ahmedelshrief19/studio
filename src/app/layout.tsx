@@ -5,7 +5,7 @@ import { Chatbot } from '@/components/chatbot';
 
 export const metadata: Metadata = {
   title: 'Ahmed Elshrief AI Portfolio',
-  description: 'Portfolio of a computer science and AI student from Aswan.',
+  description: 'The personal portfolio of Ahmed Elshrief, an aspiring AI Engineer. Showcasing interactive projects and an AI-powered chatbot built with Next.js, Genkit, and Firebase.',
 };
 
 export default function RootLayout({
