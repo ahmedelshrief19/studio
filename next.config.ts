@@ -27,7 +27,7 @@ const nextConfig: NextConfig = {
         hostname: 'scontent.faly8-2.fna.fbcdn.net',
       },
       {
-        protocol: 'httpshttps',
+        protocol: 'https',
         hostname: 'scontent.faly8-1.fna.fbcdn.net',
       }
     ],
