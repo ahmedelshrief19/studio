@@ -32,7 +32,7 @@ export function Hero() {
         <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter mb-4">
           Aspiring AI Engineer & Developer
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground mb-8 min-h-[112px]">
+        <p className="text-lg md:text-xl text-muted-foreground mb-8">
           I am an aspiring AI Engineer and Developer from Aswan, currently studying Computer Science and AI. I am passionate about building intelligent applications that solve real-world problems.
         </p>
         <div className="flex justify-center md:justify-start gap-4">
