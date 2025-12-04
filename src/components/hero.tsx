@@ -7,7 +7,11 @@ import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-const profileImages = PlaceHolderImages.filter(p => p.id.startsWith('ahmed-profile')).map(p => p.imageUrl);
+const profileImages = [
+    ...PlaceHolderImages.filter(p => p.id.startsWith('ahmed-profile')),
+    PlaceHolderImages.find(p => p.id === 'project-quran')
+].filter(Boolean).map(p => p.imageUrl);
+
 
 export function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
