@@ -1,63 +1,57 @@
 {
   "placeholderImages": [
     {
-      "id": "profile",
-      "description": "A professional portrait of the user.",
-      "imageUrl": "https://images.unsplash.com/photo-1567324216289-97cc4134f626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjI2NTI1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "portrait man"
-    },
-    {
       "id": "ahmed-profile-1",
       "description": "A professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/486063532_1638664886766121_1274363262959688431_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGjPUWZEh_F4Cqe5tYf6vLk37miSGIpvKjfuaJIYim8qNUPuYWR_yufZa0Dnx4BnYJUAXtRVvc38a0xVWC796OE&_nc_ohc=keWdLWvT-gIQ7kNvwFHdT7c&_nc_oc=AdmIBKG-RIYtZKBO_zTy9suQyiVfKD8g4rd_yJsJTUL_ernbE6KuAE0Q4dpx2T_hBXE&_nc_zt=23&_nc_ht=scontent.faly8-2.fna&_nc_gid=D4dD4p338xL9tmwsr0cP-w&oh=00_Afj-pJLElvU1sT8WCA-KKVad-vIe5fXFvTD96D83iXQjsQ&oe=6917178E",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjQ3OTk3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
     },
     {
       "id": "ahmed-profile-2",
       "description": "A second professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/480531708_1614012409231369_2408768213142273047_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGmNd-kM_hGVX-JXz08-DtjGgzdsYvO6OsaDN2xi87o6ydzQpA6s63A5up_VKRUSPkXiph8TQQyJCbNjamPdD5F&_nc_ohc=Q3gxAmF5sQcQ7kNvwEmkgcE&_nc_oc=Adn-Eo881LtD_bWXsFWQGl40DB5-nTFkk1Kdmn36UpsNEC6w2_7FAT2IW_sqK8rzBpU&_nc_zt=23&_nc_ht=scontent.faly8-2.fna&_nc_gid=il7yl2vdyBM_WWd2zJuaHw&oh=00_Afjt6UZJp0JXqUqqURDfjq8EYnx9AWTMOHanuYaMaxlLWA&oe=69171528",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjQ3OTk3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
     },
     {
       "id": "ahmed-profile-3",
       "description": "A third professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/480179938_1610800142885929_4772354231152263814_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFUh3Nusq-pHAMr71IdaMbeb1MQbYHxOwpvUxBtgfE7Ci7bo9pYI2vzkNKoxeUcoIFejDt4_uarmR5yM1ZmFWkl&_nc_ohc=rfrTeq18klsQ7kNvwGMZSe9&_nc_oc=Adkj3w7heQXxC0Iwe3Wk-mtO5ivBwHJ65b6f_A0xCzOnGlra5TnCh1B3skLFFqo1Fk0&_nc_zt=23&_nc_ht=scontent.faly8-1.fna&_nc_gid=4q4ZUkuLLASNn77cmnEMow&oh=00_AfhGXfeoL7rin_odMh-j14VA5bjTiHz3Vyfh-9zZElBR-Q&oe=6917352F",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjQ3OTk3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
     },
     {
       "id": "ahmed-profile-4",
       "description": "A fourth professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/473288259_1587833175182626_5731761272615837127_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHTeXwXOR27R6Z7CfXxFq1dDauoynHzYj0Nq6jKcfNiPQ4TblrV_MV5bXpN1Hms-CAVbMdtWLOFc7Y4YC0kq8IT&_nc_ohc=Y5kxscyDny0Q7kNvwEzHBrk&_nc_oc=AdnS6i_Il0zDnWajRH5ZFSG6SJWzek4nwQhvxxGdZ4jvmTA5xIy0-w6c2ZMN2eqGaQ0&_nc_zt=23&_nc_ht=scontent.faly8-1.fna&_nc_gid=oHs-tSna1lceVBJWNL6PBg&oh=00_AfjG_GbDIRgQA4AthB8zWk-jcSp5uInyC0ohF8Akp-s6hw&oe=69172C9B",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjQ3OTk3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
     },
     {
       "id": "ahmed-profile-5",
       "description": "A fifth professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/474967540_1598306487468628_1799199320742336051_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGi1bmVG6Yh1QtUBg6nBvSIGjBjuOYL5GIaMGO45gvkYg7hBoi0pKYqRNK0q6Khz5JKEnyPoJh-gUyxzO-xcR2G&_nc_ohc=s65T-e2qEEYQ7kNvwFRRGIA&_nc_oc=AdmykeBX8bagBOAPbLWqLlhfADcJ2NHwPfUXHo6lE-oVBkFxJD4E6CtZYXE84SQd23g&_nc_zt=23&_nc_ht=scontent.faly8-2.fna&_nc_gid=INpdHF-Zp-0lyKmTblm44w&oh=00_AfgQgbQNSof0y_W48e_F6kggI_QnAiY41IQr1tEora5JMQ&oe=691712C3",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjQ3OTk3MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
     },
     {
       "id": "project1",
       "description": "Image for Tic-Tac-Toe game.",
-      "imageUrl": "https://images.unsplash.com/photo-1734352749174-32c5f5919a02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aWMtdGFjLXRvZSUyMGdhbWV8ZW58MHx8fHwxNzYyNzM4Mzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600224374823-211f85c16521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aWMtdGFjLXRvZSUyMGdhbWV8ZW58MHx8fHwxNzY0ODc1MjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tic-tac-toe game"
     },
     {
       "id": "project-calculator",
       "description": "Image for calculator project",
-      "imageUrl": "https://images.unsplash.com/photo-1735467547583-d9fc4503f238?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdG9yJTIwYXBwfGVufDB8fHx8MTc2MjY2OTE2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758626445322-d5dda0431094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FsY3VsYXRvciUyMGFwcHxlbnwwfHx8fDE3NjQ4NzUyMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "calculator app"
     },
     {
       "id": "project-guess-number",
       "description": "Image for guess the number game",
-      "imageUrl": "https://images.unsplash.com/photo-1542027953342-020384de63a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxudW1iZXIlMjBnYW1lfGVufDB8fHx8MTc2Mjc0MDMxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666193183350-2431bab722c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxudW1iZXIlMjBnYW1lfGVufDB8fHx8MTc2NDg3NTIyNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "number game"
     },
     {
       "id": "project-quran",
       "description": "Image for Quran Program",
-      "imageUrl": "https://images.unsplash.com/photo-1593773331124-4ff9f002f833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxxdXJhbiUyMGlzbGFtfGVufDB8fHx8MTc2Mjc0MDgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1622447878338-c5471448f098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVyYW4lMjBpc2xhbXxlbnwwfHx8fDE3NjQ4NzUyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "quran islam"
     }
   ]
