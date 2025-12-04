@@ -1,5 +1,5 @@
 import type React from "react";
-import { BrainCircuit, Code, Database, Server, BookOpen } from 'lucide-react';
+import { BrainCircuit, Code, Database, Server, BookOpen, ToyBrick } from 'lucide-react';
 
 export const skills = [
   { name: 'Python', level: 90, icon: BrainCircuit },
@@ -18,6 +18,14 @@ export const projects = [
     image: 'project-quran',
     tags: ['React', 'API', 'Islamic'],
     projectComponent: 'QuranPlayer',
+  },
+  {
+    id: '5',
+    title: 'Chess Game',
+    description: 'A classic game of chess. Play against yourself and test your strategy. Built with chess.js for game logic and react-chessboard for the UI.',
+    image: 'project-chess',
+    tags: ['React', 'Game Logic', 'Strategy'],
+    projectComponent: 'ChessGame',
   },
   {
     id: '1',

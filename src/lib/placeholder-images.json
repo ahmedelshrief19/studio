@@ -21,26 +21,32 @@
     {
       "id": "project1",
       "description": "Image for Tic-Tac-Toe game.",
-      "imageUrl": "https://images.unsplash.com/photo-1600224374823-211f85c16521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0aWMtdGFjLXRvZSUyMGdhbWV8ZW58MHx8fHwxNzY0ODc1MjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1763925386498-0c376c6648e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0aWMtdGFjLXRvZSUyMGdhbWV8ZW58MHx8fHwxNzY0ODc1MjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tic-tac-toe game"
     },
     {
       "id": "project-calculator",
       "description": "Image for calculator project",
-      "imageUrl": "https://images.unsplash.com/photo-1758626445322-d5dda0431094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FsY3VsYXRvciUyMGFwcHxlbnwwfHx8fDE3NjQ4NzUyMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1735469157670-1212e570eadc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYWxjdWxhdG9yJTIwYXBwfGVufDB8fHx8MTc2NDg3NTIyNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "calculator app"
     },
     {
       "id": "project-guess-number",
       "description": "Image for guess the number game",
-      "imageUrl": "https://images.unsplash.com/photo-1666193183350-2431bab722c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxudW1iZXIlMjBnYW1lfGVufDB8fHx8MTc2NDg3NTIyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634169685828-235cd18fae28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bnVtYmVyJTIwZ2FtZXxlbnwwfHx8fDE3NjQ4NzUyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "number game"
     },
     {
       "id": "project-quran",
       "description": "Image for Quran Program",
-      "imageUrl": "https://images.unsplash.com/photo-1622447878338-c5471448f098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVyYW4lMjBpc2xhbXxlbnwwfHx8fDE3NjQ4NzUyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1597505495109-7fc35bb64d8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxxdXJhbiUyMGlzbGFtfGVufDB8fHx8MTc2NDg3NTIyNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "quran islam"
+    },
+    {
+      "id": "project-chess",
+      "description": "Image for Chess game",
+      "imageUrl": "https://images.unsplash.com/photo-1627279622499-5678705ce453?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVzcyUyMGdhbWV8ZW58MHx8fHwxNzY0ODU2OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chess game"
     }
   ]
 }

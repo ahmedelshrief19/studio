@@ -24,6 +24,7 @@ import { TicTacToe } from './tic-tac-toe';
 import { Calculator } from './calculator';
 import { GuessTheNumber } from './guess-the-number';
 import { QuranPlayer } from './quran-player';
+import { ChessGame } from './chess-game';
 
 type Project = {
   id: string;
@@ -31,7 +32,7 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer';
+  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer' | 'ChessGame';
 };
 
 type ProjectCardProps = {
@@ -50,6 +51,9 @@ const ProjectComponent = ({ name }: { name: Project['projectComponent'] }) => {
   }
   if (name === 'QuranPlayer') {
     return <QuranPlayer />;
+  }
+  if (name === 'ChessGame') {
+    return <ChessGame />;
   }
   return null;
 }
