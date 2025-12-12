@@ -2,33 +2,17 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ArrowRight } from "lucide-react";
-import { useEffect, useState } from "react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-const profileImages = [
-    ...PlaceHolderImages.filter(p => p.id.startsWith('ahmed-profile')),
-    PlaceHolderImages.find(p => p.id === 'project-quran')
-].filter(Boolean).map(p => p.imageUrl);
-
+const profileImage = "/ahmed1.png";
 
 export function Hero() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % profileImages.length);
-    }, 3000); // Change image every 3 seconds
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section id="about" className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-12 px-4 py-20 md:py-32 min-h-[calc(100vh-56px)]">
       <div className="flex-shrink-0">
         <Avatar className="h-64 w-64 md:h-80 md:w-80 border-4 border-accent shadow-lg">
-          <AvatarImage src={profileImages[currentImageIndex]} alt="Profile Picture" />
+          <AvatarImage src={profileImage} alt="Profile Picture" />
           <AvatarFallback className="text-6xl font-headline bg-primary text-primary-foreground">AE</AvatarFallback>
         </Avatar>
       </div>
