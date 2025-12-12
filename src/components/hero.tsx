@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-const profileImage = "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/412534571_1061905388406987_5914170889985959142_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=i5Z85d4r2REQ7kNvgFF-M0_&_nc_ht=scontent.faly8-2.fna&oh=00_AYCH_xWjqxS6UeAbO_A59xGgM6e-BUbC18tBwW6M70D5aQ&oe=6667104F";
+const profileImage = "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/480531708_1614012409231369_2408768213142273047_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeGmNd-kM_hGVX-JXz08-DtjGgzdsYvO6OsaDN2xi87o6ydzQpA6s63A5up_VKRUSPkXiph8TQQyJCbNjamPdD5F&_nc_ohc=QTMKcak7yeoQ7kNvwGpfZIb&_nc_oc=Adnog0ARzsmfQg6Hxnp-DLXq7End76McwhG6MCxbco2lNzGqGe86m8ydoXsZhHFGJKw&_nc_zt=23&_nc_ht=scontent.faly8-2.fna&_nc_gid=AdyLRQditI-I5WRqhfvxTQ&oh=00_AfnP9H4Rjle4WB9etkuvnBeKssX6vfraNPRDcVY8FtXqHA&oe=69425E68";
 
 export function Hero() {
   return (
