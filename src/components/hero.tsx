@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-const profileImage = "/ahmed1.png";
+const profileImage = "/Ahmed.png"; // Updated path to public directory
 
 export function Hero() {
   return (
