@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
 
-const profileImage = "/Ahmed.png"; // Updated path to public directory
+const profileImage = "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/412534571_1061905388406987_5914170889985959142_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=i5Z85d4r2REQ7kNvgFF-M0_&_nc_ht=scontent.faly8-2.fna&oh=00_AYCH_xWjqxS6UeAbO_A59xGgM6e-BUbC18tBwW6M70D5aQ&oe=6667104F";
 
 export function Hero() {
   return (
