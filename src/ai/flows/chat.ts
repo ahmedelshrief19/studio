@@ -43,4 +43,7 @@ const chatFlow = ai.defineFlow(
     outputSchema: ChatOutputSchema,
   },
   async (input) => {
-    const {
+    const { output } = await prompt(input);
+    return { response: output!.response };
+  }
+);
