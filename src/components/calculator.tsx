@@ -125,4 +125,5 @@ export function Calculator() {
         </div>
       </CardContent>
     </Card>
-  
+  );
+}

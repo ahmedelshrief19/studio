@@ -146,4 +146,6 @@ export function QuranPlayer() {
           </TabsContent>
         </Tabs>
       </CardContent>
-    
+    </Card>
+  );
+}

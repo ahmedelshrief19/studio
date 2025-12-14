@@ -18,4 +18,7 @@ export function SmoothScrollLink({ href, children, className, ...props }: Smooth
 
   return (
     <a href={href} onClick={handleScroll} className={className} {...props}>
-      {children
+      {children}
+    </a>
+  );
+}
