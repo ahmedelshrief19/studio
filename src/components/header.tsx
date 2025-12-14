@@ -65,4 +65,6 @@ export function Header() {
           </nav>
         </div>
       )}
-    </header
+    </header>
+  );
+}
