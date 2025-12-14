@@ -12,8 +12,4 @@ export function Projects() {
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+        

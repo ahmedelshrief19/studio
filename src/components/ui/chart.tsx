@@ -358,8 +358,4 @@ function getPayloadConfigFromPayload(
 export {
   ChartContainer,
   ChartTooltip,
-  ChartTooltipContent,
-  ChartLegend,
-  ChartLegendContent,
-  ChartStyle,
-}
+  Chart

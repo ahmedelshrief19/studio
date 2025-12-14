@@ -48,6 +48,3 @@ const summarizeAIProjectFlow = ai.defineFlow(
   },
   async input => {
     const {output} = await summarizeAIProjectPrompt(input);
-    return output!;
-  }
-);

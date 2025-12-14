@@ -83,8 +83,4 @@ export function GuessTheNumber() {
         )}
         <p className="text-sm text-muted-foreground">
           Guesses: {guessCount}
-        </p>
-      </CardContent>
-    </Card>
-  );
-}
+        </
