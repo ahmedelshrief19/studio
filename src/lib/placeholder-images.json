@@ -3,19 +3,7 @@
     {
       "id": "ahmed-profile-1",
       "description": "A professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/412534571_1061905388406987_5914170889985959142_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=i5Z85d4r2REQ7kNvgFF-M0_&_nc_ht=scontent.faly8-2.fna&oh=00_AYCH_xWjqxS6UeAbO_A59xGgM6e-BUbC18tBwW6M70D5aQ&oe=6667104F",
-      "imageHint": "portrait man"
-    },
-    {
-      "id": "ahmed-profile-2",
-      "description": "A second professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/393275916_1013735166557343_8133569720760455436_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=m66mQ329v6UQ7kNvgH05rSw&_nc_ht=scontent.faly8-1.fna&oh=00_AYANyB-3j-1n_x1r_n1s2aD20t4w34qgBqW2O0wW3FvMuw&oe=666708A9",
-      "imageHint": "portrait man"
-    },
-    {
-      "id": "ahmed-profile-3",
-      "description": "A third professional portrait of Ahmed Elshrief.",
-      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/368297011_966601131270747_3845974026859533605_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=27-p_V_pxtgQ7kNvgEDhFh0&_nc_ht=scontent.faly8-1.fna&oh=00_AYBNXj2-m09AapZ0R2BqLgE7Lg4JjQ_eWcsm2fXvGvFz4g&oe=666705D6",
+      "imageUrl": "https://scontent.faly8-1.fna.fbcdn.net/v/t39.30808-6/669422964_1925047934794480_3475846044240043510_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=1-7&_nc_sid=6809ec&_nc_eui2=AeFxRuw5ZxAUU1IAfFGSDel8NH5n_1yZmKs0fmf_XJmYq9n_2B1er9kd8DKUhiV4kO9gy5hIh5gMNU_VUGNm9AAs&_nc_ohc=5-fxJpwhc7UQ7kNvwHUqGd9&_nc_oc=AdrhLl25wzJEr5yz0f-mSLop-dIWc0iTY_O3fRMuD9lGujipva0gVjabEJHsQBAHcd0&_nc_zt=23&_nc_ht=scontent.faly8-1.fna&_nc_gid=_d856-48lxcgHXqUJvpf6g&_nc_ss=7a3a8&oh=00_Af0J6tNPmD-bCDLRdSl0uXHvKj-ubpuIjwlbuB-a2FAsQw&oe=69EAC8DA",
       "imageHint": "portrait man"
     },
     {
@@ -47,6 +35,18 @@
       "description": "Image for Chess game",
       "imageUrl": "https://images.unsplash.com/photo-1627279622499-5678705ce453?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVzcyUyMGdhbWV8ZW58MHx8fHwxNzY0ODU2OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "chess game"
+    },
+    {
+      "id": "project-car-system",
+      "description": "Image for Car Management System",
+      "imageUrl": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXIlMjBkYXRhYmFzZXxlbnwwfHx8fDE3NjQ4NzUyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car database"
+    },
+    {
+      "id": "project-bank-system",
+      "description": "Image for Bank Management System",
+      "imageUrl": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5rfGVufDB8fHx8MTc2NDg3NTIyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bank vault"
     }
   ]
 }

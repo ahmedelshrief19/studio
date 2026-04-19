@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
         hostname: 'scontent.faly8-1.fna.fbcdn.net',
       }
     ],
-  },
+  }
 };
 
 export default nextConfig;

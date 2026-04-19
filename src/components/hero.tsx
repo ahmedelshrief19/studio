@@ -1,13 +1,15 @@
+
 'use client';
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { SmoothScrollLink } from "./smooth-scroll-link";
-
-const profileImage = "https://scontent.faly8-2.fna.fbcdn.net/v/t39.30808-6/480531708_1614012409231369_2408768213142273047_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeGmNd-kM_hGVX-JXz08-DtjGgzdsYvO6OsaDN2xi87o6ydzQpA6s63A5up_VKRUSPkXiph8TQQyJCbNjamPdD5F&_nc_ohc=QTMKcak7yeoQ7kNvwGpfZIb&_nc_oc=Adnog0ARzsmfQg6Hxnp-DLXq7End76McwhG6MCxbco2lNzGqGe86m8ydoXsZhHFGJKw&_nc_zt=23&_nc_ht=scontent.faly8-2.fna&_nc_gid=AdyLRQditI-I5WRqhfvxTQ&oh=00_AfnP9H4Rjle4WB9etkuvnBeKssX6vfraNPRDcVY8FtXqHA&oe=69425E68";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export function Hero() {
+  const profileImage = PlaceHolderImages.find(img => img.id === 'ahmed-profile-1')?.imageUrl || "";
+
   return (
     <section id="about" className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-12 px-4 py-20 md:py-32 min-h-[calc(100vh-56px)]">
       <div className="flex-shrink-0">

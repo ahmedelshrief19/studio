@@ -16,6 +16,7 @@ export function GuessTheNumber() {
   const [gameOver, setGameOver] = useState(false);
   
   useEffect(() => {
+    // This will only run on the client, after initial hydration
     setSecretNumber(generateRandomNumber());
   }, []);
 

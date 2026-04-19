@@ -1,5 +1,5 @@
 import type React from "react";
-import { BrainCircuit, Code, Database, Server, BookOpen, ToyBrick } from 'lucide-react';
+import { BrainCircuit, Code, Database, Server, BookOpen, ToyBrick, Car, Landmark } from 'lucide-react';
 
 export const skills = [
   { name: 'Python', level: 90, icon: BrainCircuit },
@@ -11,6 +11,22 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: '7',
+    title: 'Bank Management System',
+    description: 'A comprehensive banking simulation featuring account creation, transaction tracking, and secure balance management, based on object-oriented logic.',
+    image: 'project-bank-system',
+    tags: ['React', 'OOP Simulation', 'Finance'],
+    projectComponent: 'BankSystem',
+  },
+  {
+    id: '6',
+    title: 'Car Management System',
+    description: 'An interactive simulation of a Car Management System logic, originally conceptualized in C#. This React project allows users to manage a fleet of vehicles with model and pricing data.',
+    image: 'project-car-system',
+    tags: ['React', 'Logic', 'C# Simulation'],
+    projectComponent: 'CarSystem',
+  },
   {
     id: '4',
     title: 'Quran Program',

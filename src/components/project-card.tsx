@@ -18,13 +18,15 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Gamepad2 } from 'lucide-react';
+import { Gamepad2, Layers } from 'lucide-react';
 import Image from 'next/image';
 import { TicTacToe } from './tic-tac-toe';
 import { Calculator } from './calculator';
 import { GuessTheNumber } from './guess-the-number';
 import { QuranPlayer } from './quran-player';
 import { ChessGame } from './chess-game';
+import { CarSystem } from './car-system';
+import { BankSystem } from './bank-system';
 
 type Project = {
   id: string;
@@ -32,7 +34,7 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer' | 'ChessGame';
+  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer' | 'ChessGame' | 'CarSystem' | 'BankSystem';
 };
 
 type ProjectCardProps = {
@@ -54,6 +56,12 @@ const ProjectComponent = ({ name }: { name: Project['projectComponent'] }) => {
   }
   if (name === 'ChessGame') {
     return <ChessGame />;
+  }
+  if (name === 'CarSystem') {
+    return <CarSystem />;
+  }
+  if (name === 'BankSystem') {
+    return <BankSystem />;
   }
   return null;
 }
@@ -92,11 +100,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <Dialog>
             <DialogTrigger asChild>
               <Button variant="outline">
-                <Gamepad2 className="mr-2 h-4 w-4" />
+                {['TicTacToe', 'GuessTheNumber', 'ChessGame'].includes(project.projectComponent) ? (
+                  <Gamepad2 className="mr-2 h-4 w-4" />
+                ) : (
+                  <Layers className="mr-2 h-4 w-4" />
+                )}
                 Launch Project
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-max">
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
               <DialogHeader>
                 <DialogTitle>{project.title}</DialogTitle>
               </DialogHeader>
