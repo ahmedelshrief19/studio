@@ -1,23 +1,43 @@
 # Ahmed Elshrief - AI Portfolio
 
-This is the source code for the personal portfolio of Ahmed Elshrief, an aspiring AI Engineer and Computer Science student. This project was built collaboratively in Firebase Studio.
+Welcome to the professional portfolio of Ahmed Elshrief, an aspiring AI Engineer and Computer Science student. This project showcases technical skills, interactive applications, and AI integrations.
 
-## About The Project
+## 🚀 Features
 
-This website is a modern, interactive personal portfolio designed to showcase technical skills and projects. It is built with a modern tech stack and features several interactive and AI-powered components.
+- **AI Assistant:** An integrated chatbot powered by Google Gemini 1.5 Flash via Genkit, providing information about my skills and experience.
+- **Interactive Projects:**
+  - **Car Management System:** A logic-focused fleet management simulation.
+  - **Quran & Adhkar Program:** A digital reader for religious texts and daily remembrances.
+  - **Strategy Games:** Fully functional Chess and Tic-Tac-Toe games.
+  - **Utilities:** A custom-built calculator and "Guess the Number" game.
+- **Modern UI:** Built with a focus on responsiveness and accessibility using Tailwind CSS and ShadCN UI.
 
-### Key Features:
+## 🛠️ Tech Stack
 
-*   **AI Chatbot:** An integrated AI assistant, powered by Google's Gemini model via Genkit, that can answer questions about Ahmed.
-*   **Interactive Projects:** A showcase of projects including a Quran and Adhkar reader, a calculator, and classic games, all fully functional within the site.
-*   **Dynamic & Responsive UI:** A smooth-scrolling, responsive interface built with Tailwind CSS and ShadCN UI that looks great on both desktop and mobile devices.
-*   **Hosted on Firebase:** The entire Next.js application is deployed and hosted on Firebase App Hosting, demonstrating modern cloud-native development practices.
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **AI Framework:** [Genkit](https://firebase.google.com/docs/genkit)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Components:** [ShadCN UI](https://ui.shadcn.com/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-### Built With:
+## 📦 Getting Started
 
-*   [Next.js](https://nextjs.org/) - React Framework
-*   [React](https://reactjs.org/) - UI Library
-*   [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
-*   [ShadCN UI](https://ui.shadcn.com/) - Component Library
-*   [Genkit (Firebase)](https://firebase.google.com/docs/genkit) - AI Framework
-*   [Firebase App Hosting](https://firebase.google.com/docs/hosting) - Hosting Platform
+1. **Clone the repository** (Ensure your remote URL is correct if you encounter "Repository not found" errors).
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add your API keys:
+   ```env
+   GOOGLE_GENAI_API_KEY=your_gemini_api_key_here
+   ```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📄 License
+
+This project is for personal portfolio demonstration purposes.

@@ -1,21 +1,10 @@
-import { Contact } from "@/components/contact";
-import { Footer } from "@/components/footer";
-import { Projects } from "@/components/projects";
-import { Header } from "@/components/header";
-import { Hero } from "@/components/hero";
-import { Skills } from "@/components/skills";
+'use client';
 
-export default function Home() {
-  return (
-    <div id="home" className="flex flex-col min-h-screen bg-background">
-      <Header />
-      <main className="flex-grow">
-        <Hero />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
+/**
+ * @fileOverview This file was previously a duplicate of the home page.
+ * It is currently reserved for future game-specific gallery features.
+ */
+
+export default function GamesPlaceholder() {
+  return null;
 }
