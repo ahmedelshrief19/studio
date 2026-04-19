@@ -1,4 +1,3 @@
-
 'use client';
 
 import { Badge } from '@/components/ui/badge';
@@ -27,6 +26,7 @@ import { GuessTheNumber } from './guess-the-number';
 import { QuranPlayer } from './quran-player';
 import { ChessGame } from './chess-game';
 import { CarSystem } from './car-system';
+import { BankSystem } from './bank-system';
 
 type Project = {
   id: string;
@@ -34,7 +34,7 @@ type Project = {
   description: string;
   image: string;
   tags: string[];
-  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer' | 'ChessGame' | 'CarSystem';
+  projectComponent?: 'TicTacToe' | 'Calculator' | 'GuessTheNumber' | 'QuranPlayer' | 'ChessGame' | 'CarSystem' | 'BankSystem';
 };
 
 type ProjectCardProps = {
@@ -59,6 +59,9 @@ const ProjectComponent = ({ name }: { name: Project['projectComponent'] }) => {
   }
   if (name === 'CarSystem') {
     return <CarSystem />;
+  }
+  if (name === 'BankSystem') {
+    return <BankSystem />;
   }
   return null;
 }
@@ -105,7 +108,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 Launch Project
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-max max-h-[90vh] overflow-y-auto">
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
               <DialogHeader>
                 <DialogTitle>{project.title}</DialogTitle>
               </DialogHeader>
