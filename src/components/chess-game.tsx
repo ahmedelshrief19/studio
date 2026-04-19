@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
@@ -11,6 +12,17 @@ export function ChessGame() {
   const [fen, setFen] = useState(game.fen());
   const [status, setStatus] = useState('White to move');
   const [gameOver, setGameOver] = useState(false);
+  const [boardWidth, setBoardWidth] = useState(400);
+
+  useEffect(() => {
+    const handleResize = () => {
+        const newWidth = Math.min(400, window.innerWidth - 60);
+        setBoardWidth(newWidth > 0 ? newWidth : 400);
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     updateStatus();
@@ -69,7 +81,7 @@ export function ChessGame() {
                     <Chessboard
                         position={fen}
                         onPieceDrop={onDrop}
-                        boardWidth={Math.min(400, window.innerWidth - 60)}
+                        boardWidth={boardWidth}
                     />
                 </div>
             </CardContent>

@@ -19,6 +19,6 @@ export async function getChatResponse(message: string) {
     return { success: true, response };
   } catch (error) {
     console.error(error);
-    return { success: false, error: 'Failed to get chat response.' };
+    return { success: false, error: 'Failed to get a response.' };
   }
 }
