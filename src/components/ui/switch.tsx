@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -24,4 +25,6 @@ const Switch = React.forwardRef<
     />
   </SwitchPrimitives.Root>
 ))
-Switch
+Switch.displayName = SwitchPrimitives.Root.displayName
+
+export { Switch }

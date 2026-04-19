@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -55,4 +56,4 @@ const AccordionContent = React.forwardRef<
 
 AccordionContent.displayName = AccordionPrimitive.Content.displayName
 
-export
+export { Accordion, AccordionItem, AccordionTrigger, AccordionContent }
