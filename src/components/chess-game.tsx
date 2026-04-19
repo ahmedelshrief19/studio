@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
@@ -92,3 +93,4 @@ export function ChessGame() {
       )}
     </div>
   );
+}

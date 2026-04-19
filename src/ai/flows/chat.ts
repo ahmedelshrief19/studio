@@ -1,7 +1,7 @@
 'use server';
 
 /**
- * @fileOverview A simple AI chat flow.
+ * @fileOverview A simple AI chat flow powered by DeepSeek.
  *
  * - chat - A function that handles the chat interaction.
  * - ChatInput - The input type for the chat function.
@@ -10,7 +10,6 @@
 
 import { ai } from '@/ai/genkit';
 import { z } from 'genkit';
-import { googleAI } from '@genkit-ai/google-genai';
 
 const ChatInputSchema = z.object({
   message: z.string().describe('The user message'),
@@ -30,8 +29,7 @@ const prompt = ai.definePrompt({
   name: 'chatPrompt',
   input: { schema: ChatInputSchema },
   output: { schema: ChatOutputSchema },
-  model: googleAI.model('gemini-2.5-flash'),
-  prompt: `You are a helpful AI assistant for a portfolio website. The portfolio belongs to Ahmed Elshrief, a student of Computer Science and AI from Aswan. Be helpful and friendly.
+  prompt: `You are a helpful AI assistant for a portfolio website. The portfolio belongs to Ahmed Elshrief, a student of Computer Science and AI from Aswan. Be helpful and friendly. Use your intelligence to answer accurately and engagingly.
 
   User message: {{{message}}}`,
 });
